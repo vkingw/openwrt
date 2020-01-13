@@ -27,9 +27,9 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@my-dev
+        uses: actions/checkout@master
         with:
-          ref: master
+          ref: my-dev
 
       - name: Space cleanup
         env:
